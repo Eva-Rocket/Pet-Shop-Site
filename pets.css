@@ -290,8 +290,14 @@ html {
 .nav-links {
     display: flex;
     flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
 }
 
+.show-links {
+  height: 310px;
+}
 .nav-link {
     display: block;
     text-align: center;
@@ -309,4 +315,44 @@ html {
 
 .contact-link a {
     padding: 0.15rem 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .nav-btn {
+    display: none;
+  }
+  .navbar {
+    height: 6rem;
+  }
+
+  .nav-center {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .nav-header {
+    height: auto;
+    margin-right: 2rem;
+  }
+
+  .nav-links {
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 0;
+    border-top: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+
+  }
+
+  .contact-link {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
