@@ -356,3 +356,33 @@ html {
     margin-right: 0;
   }
 }
+
+
+.page {
+  
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: cal(100vh - (6rem + 4rem));
+}
+
+.page-footer {
+  height: 4rem;
+  text-align: center;
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.page-footer p {
+  margin-bottom: 0;
+}
+
+.footer-logo,
+.page-footer a {
+  color: var(--primary-500);
+}
