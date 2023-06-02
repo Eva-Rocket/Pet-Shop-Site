@@ -398,7 +398,7 @@ html {
 .hero-about {
   
     height: 40vh;
-    background: url(duo.jpg) center/cover no-repeat;
+    background: url(darkcat.jpg) center/cover no-repeat;
     margin-bottom: 2rem;
     border-radius: var(--borderRadius);
     position: relative;
@@ -437,6 +437,19 @@ html {
   left: 0;
   background: rgba(0, 0, 0, 0.4);
   border-radius: var(--borderRadius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-about-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
