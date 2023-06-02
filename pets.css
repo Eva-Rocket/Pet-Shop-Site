@@ -413,6 +413,14 @@ html {
   position: relative;
 }
 
+.hero-contact {
+  height: 40vh;
+  background: url(cat-on-phone.jpeg) center/cover no-repeat;
+  margin-bottom: 2rem;
+  border-radius: var(--borderRadius);
+  position: relative;
+}
+
 .hero-products {
   height: 40vh;
   background: url(dogtoys.jpeg) center/cover no-repeat;
