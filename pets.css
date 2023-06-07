@@ -502,3 +502,37 @@ html {
       grid-area: img;
   }
 }
+
+.our_food {
+  background-color: rgb(253, 253, 216);
+  color: var(--green-dark);
+  text-align: center;
+}
+
+.subtitle_food {
+  margin-bottom: 1em;
+  font-size: 2rem;
+  color: var(--clr-accent);
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 10rem;
+  
+  
+  
+}
+
+.portfolio_item {
+  background: var(--clr-accent);
+  
+ 
+}
+
+.portfolio_img {
+  max-width: 500px;
+  max-height: 400px;
+}
