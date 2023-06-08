@@ -546,3 +546,45 @@ html {
   max-width: 500px;
   max-height: 400px;
 }
+
+
+.contacting {
+  background: #e9e8f1;
+  color: var(--clr-accent);
+  text-align: center;
+  padding: 2.5em 0;
+  font-size: 2rem;
+  
+}
+
+.contacting a {
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+.contacting_link {
+
+  font-weight: bold;
+}
+
+.contacting_link:hover, 
+.social_link:hover {
+  opacity: .5;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social_item {
+  margin: 0 0.5em;
+}
+
+.contacting_link:hover {
+  text-decoration: underline;
+}
